@@ -121,6 +121,7 @@ body{
 }
 .lista__link a:hover{
     color: var(--botao-azul);
+    font-size: 22px;
 }
 .lista__link a:active{
     color: purple;
