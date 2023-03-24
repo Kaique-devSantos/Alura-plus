@@ -169,7 +169,7 @@ body{
     .lista__link a{
         font-size: 22px;
     }
-    .lista__link a:hover{
+    .lista__link a:active{
         font-size: 30px;
         transition: .25s;
         color: var(--violeta-hover);
