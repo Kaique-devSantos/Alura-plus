@@ -147,7 +147,7 @@ body{
     .descricao__texto{
         font-size: 28px;
     }
-    .container__botao:hover{
+    .container__botao:active{
         transition: .25s;
         color: var(--violeta-hover);
         background-color: var(--cinza-secundario);
