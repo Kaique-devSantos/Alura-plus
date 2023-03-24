@@ -5,6 +5,8 @@
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
     --botao-azul-efeito: #3c92fa;
+    --violeta-hover:#8B008B;
+
 }
 
 body{
@@ -128,3 +130,54 @@ body{
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
 }
+@media screen and (max-width:768px){
+    .container{
+        display: block;
+        background-image:none;
+    }
+    .container__imagem{
+        width: 50vw;
+    }
+    .container__caixa{
+        margin:2em 2em;
+    }
+    .container__titulo{
+        line-height: 1.7em; 
+    }
+    .descricao__texto{
+        font-size: 28px;
+    }
+    .container__botao:hover{
+        transition: .25s;
+        color: var(--violeta-hover);
+        background-color: var(--cinza-secundario);
+
+    }
+    .secundario{
+        margin: 0;
+        text-align: center;
+    }
+    .secundario__imagem{
+        width: 50vw;
+    }
+    .dispositivos__lista{
+        display: block;
+    }
+    .rodape__lista{
+        display: block;
+    }
+    .lista__link a{
+        font-size: 22px;
+    }
+    .lista__link a:hover{
+        font-size: 30px;
+        transition: .25s;
+        color: var(--violeta-hover);
+        background-color: var(--cinza-secundario);
+    }
+    .rodape__logo{
+        width: 50vw;
+    }
+}
+    
+
